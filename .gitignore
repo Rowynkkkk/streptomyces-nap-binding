@@ -1,0 +1,11 @@
+# 原始数据：体积大，可用命令重新下载
+data/reference/
+data/*.fastq.gz
+
+# Python 垃圾文件
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 编辑器
+.vscode/
