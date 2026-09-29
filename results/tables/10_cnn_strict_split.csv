@@ -1,0 +1,7 @@
+﻿tier,split,auc_4mer,auc_cnn_mean,auc_cnn_min,auc_cnn_max
+N1,proximity,0.822,0.7987,0.7572,0.8361
+N2,proximity,0.5863,0.5024,0.49,0.5194
+N3a,proximity,0.8869,0.6363,0.5952,0.7204
+N3b,proximity,0.8131,0.5848,0.5745,0.6057
+N4,proximity,0.8296,0.8103,0.7979,0.8246
+N5,proximity,0.8667,0.7861,0.772,0.7974
