@@ -1,0 +1,13 @@
+﻿tier,design,auc,pr_auc,mcc
+N1,matched,0.8601,0.7269,0.4321
+N2,matched,0.5516,0.3302,0.0
+N3a,matched,0.4684,0.23,0.0
+N3b,matched,0.4669,0.2285,0.0
+N4,matched,0.8431,0.6912,0.3696
+N5,matched,0.7868,0.8624,0.6908
+N1,fixed_from_N1,0.8601,0.7269,0.4321
+N2,fixed_from_N1,0.5516,0.3302,0.0275
+N3a,fixed_from_N1,0.5316,0.2688,0.019
+N3b,fixed_from_N1,0.5331,0.2669,-0.0079
+N4,fixed_from_N1,0.8431,0.6912,0.4188
+N5,fixed_from_N1,0.2132,0.4148,-0.4319
