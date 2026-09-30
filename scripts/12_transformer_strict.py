@@ -251,7 +251,7 @@ for t in TIERS:
     d3 = RANDOM['tf'][t] - res[t][0]
     print(f"{TIER_LABEL[t]:<18}{d1:>+12.4f}{d2:>+12.4f}{d3:>+14.4f}")
 print()
-avg = lambda k, ref: np.mean([RANDOM[k][t] - ref[t] for t in TIERS])
+avg = lambda k, ref: np.mean([RANDOM[k][t] - (ref[t][0] if isinstance(ref[t], tuple) else ref[t]) for t in TIERS])
 print(f"平均高估幅度：4-mer {avg('4mer', STRICT_REF['4mer']):+.4f}  "
       f"CNN {avg('cnn', STRICT_REF['cnn']):+.4f}  "
       f"Transformer {avg('tf', res):+.4f}")

@@ -1,0 +1,5 @@
+﻿dataset,mean_gc,internal_sd,internal_range,min_subwindow_gc,max_subwindow_gc
+positives,66.431,9.75,31.867,50.195,82.062
+N1,73.331,8.07,26.385,59.872,86.258
+N2,66.809,8.791,28.701,52.258,80.958
+N5,61.133,9.45,31.008,45.523,76.531
